@@ -4,14 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="stylesheet" href="/style/style.css">
+     <link rel="stylesheet" href="/IronHack-projeto-1-GAME/style/style.css">
     <title>Document</title>
 </head>
 <body>
+
+    <main class="container">
+        <div class="tela-1" id="tela-1">
+            <Label>Digite seu nome:</Label>
+            <input id = 'nomeinput'  type="text">
+            <button id="btnjogar">Jogar</button>            
+        </div>             
+            
+        <div class="tela-game">
+            <div class="forca">
+                <img id='enforcar'src="/IronHack-projeto-1-GAME/assets/1.jpg"/>
+
+            </div>
+
+            <div class="status">
+                <div class="letras" id="letras">
+                    
+                </div>
+                <div class="inputs">
+                    
+
+                </div>
+                <form>
+                <label for="">Digite uma letra:</label>
+                <input type="text" id="letrainput"  maxlength="1">
+                </form>
+            </div>    
+           
+        </div>
+
+        <div class="tela-vitoria">
+            <h2>PARABENS <span></span> voce Ganhou</h2>
+            <p>Clique no Botão para jogar Novamente</p>
+            <button class="btnv">Jogar Novamente</button>
+        </div>
+    
+        <div class="tela-derrota">
+            <h2>DERROTA!!</h2>
+            <p>Clique no bortão para jogar novamente</p>
+            <button class="btnd">Jogar Novamente</button>
+        </div>
+
+    </main>
     
 
-
-
-    <script src="/js/index.js"></script>
+    <script src="/IronHack-projeto-1-GAME/js/classes.js"></script>
+    <script src="/IronHack-projeto-1-GAME/js/index.js"></script>
 </body>
 </html>

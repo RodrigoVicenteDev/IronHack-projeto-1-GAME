@@ -1,0 +1,99 @@
+*{
+    margin: 5px;
+    padding: 5px;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: red 1px solid;
+}
+/* ======================================================== */
+
+.tela-1{
+    
+    border: rgb(179, 255, 0) 5px solid; 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    position: fixed;
+}
+
+.display-none{
+    display: none;
+}
+
+.aparecer{
+    display:block;
+    position: absolute;
+}
+/* ======================================================== */
+.tela-game{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: rgb(0, 255, 106) 1px solid; 
+    height: 500px;
+    width: 800px;    
+}
+
+.forca{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: rgb(230, 14, 183) 1px solid;
+    width: 110px;
+    height: 180px;
+}
+
+.status{
+    border: rgb(53, 35, 133) 5px solid;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.letras{
+    border: red 1px solid;
+    display: flex;
+    justify-content: space-around;
+    width: 520px;
+    height: 90px;
+}
+/* .inputs{
+    border: red 1px solid;
+    display: flex;
+    justify-content: space-around;
+    width: 520px;
+    height: 90px;
+} */
+
+.inputs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: red 1px solid
+}
+
+.letra{
+    border-bottom: 2px solid brown;
+    width: 10px;
+    background-color: rgba(0, 0, 0, 0.39);
+}
+
+/* ======================================================== */
+.tela-vitoria{
+    display: none;
+    position: fixed
+}
+
+
+/* ======================================================== */
+
+.tela-derrota{
+    display: none;
+    position: fixed
+}
