@@ -60,7 +60,7 @@ class Jogo{
                         usadas.appendChild(usadaschild)
                         usadaschild.innerText = letrainput.value 
                         this.pontosP ++
-                        enforcar.src = `/IronHack-projeto-1-GAME/assets/${this.pontosP}.jpg`
+                        enforcar.src = `/assets/${this.pontosP}.jpg`
 
                     }     
                     setTimeout(()=>{letrainput.value =''},'1000')

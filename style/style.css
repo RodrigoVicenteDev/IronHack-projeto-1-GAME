@@ -1,20 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+body{
+ background-color: rgb(175, 128, 84);;
+}
+
+:focus-visible {
+    outline: none;
+}
 *{
     margin: 5px;
     padding: 5px;
+    font-family: 'Rye', cursive;
+    
+    color: rgb(124, 32, 32);
+    font-weight: bolder;
 
 }
-
 .container{
+  background-color: rgb(175, 128, 84);
+}
+.border{
+    border: 30px solid rgba(0, 0, 0, 0);
+    padding: 0px;
+    border-image-source: url(borda.png);
+    border-image-slice: 150;
+    border-image-repeat: repeat;
+}
+
+.bg{
+     background-image: url(/assets/planosdefundo/fundao.jpg); 
+   /*  background-color: aquamarine; */
     display: flex;
     justify-content: center;
     align-items: center;
-    border: red 1px solid;
+    border-image: auto url(/assets/borda.png) ;
+    padding: 0;
+    margin:-12px;
+    border-radius: 20px;
+    box-shadow: inset 0px 0px 15px rgba(0,0,0,0.9);
+    
+    
 }
 /* ======================================================== */
 
 .tela-1{
     
-    border: rgb(179, 255, 0) 5px solid; 
+   
     display:flex;
     justify-content: center;
     align-items: center;
@@ -29,15 +59,20 @@
 .aparecer{
     display:block;
     position: absolute;
+
+   
 }
 /* ======================================================== */
 .tela-game{
     display: flex;
     align-items: center;
     justify-content: center;
-    border: rgb(0, 255, 106) 1px solid; 
+    background-color: rgba(250, 235, 215, 0.733);
+    border-radius: 5px;
     height: 500px;
     width: 800px;    
+
+   
 }
 
 .forca{
@@ -50,16 +85,16 @@
 }
 
 .status{
-    border: rgb(53, 35, 133) 5px solid;
+    
     display: flex;
     align-items: flex-start;
     flex-direction: column;
     justify-content: flex-end;
 }
 .letras{
-    border: red 1px solid;
+    
     display: flex;
-    justify-content: space-around;
+    align-items: center;
     width: 520px;
     height: 90px;
 }
@@ -75,19 +110,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: red 1px solid
+    
 }
 
 .letra{
-    border-bottom: 2px solid brown;
+    border-bottom: 3px solid brown;
     width: 10px;
-    background-color: rgba(0, 0, 0, 0.39);
+    
 }
 
 /* ======================================================== */
 .tela-vitoria{
     display: none;
-    position: fixed
+    position: fixed;
+    
+
+
 }
 
 
@@ -95,5 +133,19 @@
 
 .tela-derrota{
     display: none;
-    position: fixed
+    position: fixed;
+
+    
+}
+
+input{
+    background-color: rgba(165, 42, 42, 0.034);
+    border: 0;
+}
+
+.bgplaca{
+    background-image: url(/assets/planosdefundo/madeira1.jpg);
+    margin: -10px;
+    border-radius: 0px;
+    box-shadow: inset 0px 0px 15px rgba(0,0,0,0.9);
 }
