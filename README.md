@@ -9,4 +9,4 @@
 	O jogo foi desenvolvido em css e Js puros, sem a utilização de frameworks.
 
 
-!('https://github.com/RodrigoVicenteDev/IronHack-projeto-1-GAME/blob/main/assets/print.jpg') IronHack-projeto-1-GAME/assets/print.jpg
+![Imagem de tela inicial ](https://github.com/RodrigoVicenteDev/IronHack-projeto-1-GAME/blob/0cb8ad23180ba41505b65aff82ee5c9611144010/assets/print.jpg)
