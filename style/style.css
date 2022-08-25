@@ -28,7 +28,7 @@ body{
 }
 
 .bg{
-     background-image: url(./assets/planosdefundo/fundao.jpg); 
+     background-image: url('./assets/planosdefundo/fundao.jpg'); 
    /*  background-color: aquamarine; */
     display: flex;
     justify-content: center;
@@ -178,7 +178,7 @@ form input{
 }
 
 #btnjogar   {
-    background-image: url(./assets/planosdefundo/botaojogar.png) ;
+    background-image: url('/assets/planosdefundo/botaojogar.png') ;
     background-repeat: no-repeat;
     width: 150px;
     height: 80px;
