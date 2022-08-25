@@ -10,6 +10,7 @@ body{
     margin: 5px;
     padding: 5px;
     font-family: 'Rye', cursive;
+    text-shadow: 1px 1px 1px black;
     
     color: rgb(99, 26, 26);
     font-weight: bolder;
@@ -89,7 +90,7 @@ body{
     padding-left: 150px;
     height: 500px;
     width: 800px;    
-    font-size: larger;
+    font-size:x-large;
 
    
 }
@@ -173,6 +174,7 @@ input{
 
 form input{
     width: 10px;
+    font-size: x-large;
 }
 
 #btnjogar   {
