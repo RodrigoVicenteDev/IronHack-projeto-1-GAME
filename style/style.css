@@ -28,12 +28,12 @@ body{
 }
 
 .bg{
-     background-image: url('./assets/planosdefundo/fundao.jpg'); 
+     background-image: url(../assets/planosdefundo/fundao.jpg); 
    /*  background-color: aquamarine; */
     display: flex;
     justify-content: center;
     align-items: center;
-    border-image: auto url(./assets/borda.png) ;
+    border-image: auto url(../assets/borda.png) ;
     padding: 0;
     margin:-12px;
     border-radius: 20px;
@@ -52,7 +52,7 @@ body{
     align-items: center;
     font-size: xx-large;
     position: fixed;
-    background-image: url(./assets/planosdefundo/fundoplaca.png) ;
+    background-image: url(../assets/planosdefundo/fundoplaca.png) ;
     background-repeat: no-repeat;
 
     width: 458px;
@@ -70,7 +70,7 @@ body{
     justify-content: center;
     align-items: center;
     position: absolute;
-    background-image: url(./assets/planosdefundo/fundoplaca.png) ;
+    background-image: url(../assets/planosdefundo/fundoplaca.png) ;
     background-repeat: no-repeat;
     padding: 20px;
     padding-top: 5px;
@@ -178,7 +178,7 @@ form input{
 }
 
 #btnjogar   {
-    background-image: url('/assets/planosdefundo/botaojogar.png') ;
+    background-image: url(../assets/planosdefundo/botaojogar.png) ;
     background-repeat: no-repeat;
     width: 150px;
     height: 80px;
@@ -188,7 +188,7 @@ form input{
 }
 
 .btnv2   {
-    background-image: url(./assets/planosdefundo/jogaragain.png) ;
+    background-image: url(../assets/planosdefundo/jogaragain.png) ;
     background-repeat: no-repeat;
     width: 180px;
     height: 115px;
