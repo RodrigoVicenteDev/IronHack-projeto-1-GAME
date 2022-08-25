@@ -60,10 +60,10 @@ class Jogo{
                         usadas.appendChild(usadaschild)
                         usadaschild.innerText = letrainput.value 
                         this.pontosP ++
-                        enforcar.src = `/assets/${this.pontosP}.jpg`
+                        enforcar.src = `/assets/${this.pontosP}.png`
 
                     }     
-                    setTimeout(()=>{letrainput.value =''},'1000')
+                    setTimeout(()=>{letrainput.value =''},'300')
                     
             this.vitoria()
         })

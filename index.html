@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="stylesheet" href="/style/style.css">
+     <link rel="stylesheet" href="/style/style.css"/>
     <title>Document</title>
 </head>
 <body>
@@ -12,20 +12,21 @@
     <main class="container border" >
         <div class="bg">
         <div class="tela-1 " id="tela-1">
-            <div class="bgplaca">
+            
             <Label>Digite seu nome:</Label>
             <input id = 'nomeinput'  type="text">
-            <button id="btnjogar">Jogar</button>    
-        </div>        
+            <button id="btnjogar"></button>    
+         
         </div>             
             
         <div class="tela-game">
             <div class="forca">
-                <img id='enforcar'src="/assets/1.jpg"/>
+                <img id='enforcar'src="/assets/1.png"/>
 
             </div>
 
             <div class="status">
+                <h4> Letras ja utilizadas:</h4>
                 <div class="letras" id="letras">
                     
                 </div>
@@ -42,15 +43,15 @@
         </div>
 
         <div class="tela-vitoria">
-            <h2>PARABENS <span></span> voce Ganhou</h2>
+            <h2>PARABENS <span></span> !!</h2>
             <p>Clique no Botão para jogar Novamente</p>
-            <button class="btnv">Jogar Novamente</button>
+            <button  class="btnv btnv2 "></button>
         </div>
     
         <div class="tela-derrota">
             <h2>DERROTA!!</h2>
             <p>Clique no bortão para jogar novamente</p>
-            <button class="btnd">Jogar Novamente</button>
+            <button  class="btnd btnv2"></button>
         </div>
         </div>
     </main>
